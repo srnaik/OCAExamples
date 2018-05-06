@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Lamdas/Lamdas.iml" filepath="$PROJECT_DIR$/Lamdas/Lamdas.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/OCAExamples.iml" filepath="$PROJECT_DIR$/.idea/OCAExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Predicate/Predicate.iml" filepath="$PROJECT_DIR$/Predicate/Predicate.iml" />
     </modules>
   </component>
 </project>
