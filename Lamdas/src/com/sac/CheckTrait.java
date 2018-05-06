@@ -1,5 +1,6 @@
 package com.sac;
 
 public interface CheckTrait {
-    public boolean test(Animal a);
+    public Object test(Animal a);
+
 }

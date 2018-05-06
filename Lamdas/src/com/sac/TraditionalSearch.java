@@ -13,15 +13,18 @@ public class TraditionalSearch {
         arlAnimals.add(new Animal("turtle",false,true));
         print(arlAnimals,a->a.isCanHoop());
         print(arlAnimals,a->a.isCanSwin());
-
+        String strName = (String) print(arlAnimals,a->{return (String) a.toString();});
+        System.out.println("Returned String "+ strName);
     }
 
-    private static void print(List<Animal> animals, CheckTrait checkTrait){
+    private static Object print(List<Animal> animals, CheckTrait checkTrait){
+        Object obj = null;
         for (Animal animal:animals) {
-            if(checkTrait.test(animal)){
+             obj = checkTrait.test(animal);
+            if(obj instanceof Boolean && (Boolean)obj){
                 System.out.println(animal + " ");
             }
         }
-
+        return obj;
     }
 }
