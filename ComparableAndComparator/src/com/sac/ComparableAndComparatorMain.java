@@ -14,23 +14,24 @@ public class ComparableAndComparatorMain {
         arList.add(new Student(105,"Jai",21));
 
         Collections.sort(arList);
-
-        for (Student student: arList) {
+        arList.forEach( a-> System.out.println("Name: " + a.getName() + "\t" + "Age: " + a.getAge() + "\t" + "Roll No: " + a.getRollNo()));
+        /*for (Student student: arList) {
             System.out.println("Name: " + student.getName() + "\t" + "Age: " + student.getAge() + "\t" + "Roll No: " + student.getRollNo());
-        }
+        }*/
 
         Collections.sort(arList,new NameComparator());
         System.out.println("********** Using Name Comparator **********");
-        for (Student student: arList) {
+        /*for (Student student: arList) {
             System.out.println("Name: " + student.getName() + "\t" + "Age: " + student.getAge() + "\t" + "Roll No: " + student.getRollNo());
-        }
+        }*/
+        arList.forEach( a-> System.out.println("Name: " + a.getName() + "\t" + "Age: " + a.getAge() + "\t" + "Roll No: " + a.getRollNo()));
 
         Collections.sort(arList,new AgeComparator());
         System.out.println("********** Using Age Comparator **********");
-        for (Student student: arList) {
+        /*for (Student student: arList) {
             System.out.println("Name: " + student.getName() + "\t" + "Age: " + student.getAge() + "\t" + "Roll No: " + student.getRollNo());
-        }
-
+        }*/
+        arList.forEach( a-> System.out.println("Name: " + a.getName() + "\t" + "Age: " + a.getAge() + "\t" + "Roll No: " + a.getRollNo()));
     }
 
 
