@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ForEach/ForEach.iml" filepath="$PROJECT_DIR$/ForEach/ForEach.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lamdas/Lamdas.iml" filepath="$PROJECT_DIR$/Lamdas/Lamdas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListInterface-Collection/ListInterface-Collection.iml" filepath="$PROJECT_DIR$/ListInterface-Collection/ListInterface-Collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/OCAExamples.iml" filepath="$PROJECT_DIR$/.idea/OCAExamples.iml" />
       <module fileurl="file://$PROJECT_DIR$/Predicate/Predicate.iml" filepath="$PROJECT_DIR$/Predicate/Predicate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SumOfDigits/SumOfDigits.iml" filepath="$PROJECT_DIR$/SumOfDigits/SumOfDigits.iml" />
     </modules>
   </component>
 </project>
